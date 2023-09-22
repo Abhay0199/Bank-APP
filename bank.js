@@ -670,7 +670,7 @@ app.post("/nomineeDetails", function (req, res) {
         gender: req.body.gender,
         dob: req.body.dob,
         relationship: req.body.relationship,
-        jointsignatory: req.body.jointSignatory
+        jointsignatory: req.body.jointsignatory
     };
     console.log(nominee);
     nomineeDetails.push(nominee);
